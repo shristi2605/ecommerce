@@ -30,4 +30,10 @@ export class HomeComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     this.storeService.getCategories().subscribe(categories => (this.categories = categories));
   }
+  trackevent(){
+    return " ";
+  }
+    trackevent2(){
+    return " ";
+  }
 }
